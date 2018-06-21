@@ -30,7 +30,7 @@ class String
 
 new_array = self.split(/[.,!,?]/)
 new_array.delete_if{|i| i.length == 0}
-#binding.pry
+binding.pry
 new_array.count
   end
 end
